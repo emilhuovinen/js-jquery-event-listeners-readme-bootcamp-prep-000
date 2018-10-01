@@ -11,8 +11,10 @@ function frameIt () {
 
 function pressIt () {
   $('#typing').on('keydown', function(){
-    if (key.which == )
-  })
+    if (event.key == "g") {
+      alert('You have press G')
+    }
+  });
 }
 
 $(document).ready(function(){
